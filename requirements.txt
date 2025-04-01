@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+requests
+pandas
+python-multipart
+sqlalchemy
+pytest
