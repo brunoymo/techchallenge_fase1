@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  `README.md` para o projeto da API Embrapa:
 
 ```markdown
@@ -83,3 +84,6 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para d
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.68-green.svg)](https://fastapi.tiangolo.com)
 ``` 
+=======
+# techchallenge_fase1
+>>>>>>> 0af4c5fa6d7aed4520c7b84d3caea4954b529050
