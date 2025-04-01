@@ -57,8 +57,7 @@ curl -X 'GET' \
 Dados obtidos diretamente dos CSVs públicos da [Embrapa Vitivinicultura](http://vitibrasil.cnpuv.embrapa.br/).
 
 ## Licença
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
+Este projeto está sob a licença MIT.
 ---
 > Desenvolvido como parte do Tech Challenge FIAP - Machine Learning Engineering
 ```
