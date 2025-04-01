@@ -1,5 +1,4 @@
-<<<<<<< HEAD
- `README.md` para o projeto da API Embrapa:
+Projeto de API para o Tech Challenge da FIAP do curso de Machine Learning 2025. 
 
 ```markdown
 # API de Dados Vitivinícolas da Embrapa
@@ -42,7 +41,7 @@ Acesse a documentação interativa:
 🔹 [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
 ## Exemplo de Request
-```bash
+```
 curl -X 'GET' \
   'http://localhost:8000/producao' \
   -H 'accept: application/json'
