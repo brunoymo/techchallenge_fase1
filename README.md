@@ -1,5 +1,4 @@
-<<<<<<< HEAD
- `README.md` para o projeto da API Embrapa:
+Projeto de API para o Tech Challenge da FIAP do curso de Machine Learning 2025. 
 
 ```markdown
 # API de Dados Vitivinícolas da Embrapa
@@ -42,7 +41,7 @@ Acesse a documentação interativa:
 🔹 [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
 ## Exemplo de Request
-```bash
+```
 curl -X 'GET' \
   'http://localhost:8000/producao' \
   -H 'accept: application/json'
@@ -57,16 +56,8 @@ curl -X 'GET' \
 ## Fonte dos Dados
 Dados obtidos diretamente dos CSVs públicos da [Embrapa Vitivinicultura](http://vitibrasil.cnpuv.embrapa.br/).
 
-## Como Contribuir
-1. Faça um fork do projeto
-2. Crie uma branch (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
 ## Licença
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
+Este projeto está sob a licença MIT.
 ---
 > Desenvolvido como parte do Tech Challenge FIAP - Machine Learning Engineering
 ```
