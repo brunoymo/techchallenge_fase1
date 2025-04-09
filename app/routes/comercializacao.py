@@ -1,10 +1,11 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Depends
 from app.scraper import EmbrapaScraper
+from app.auth import verify_token
 
-router = APIRouter(prefix="/comercializacao", tags=["Comercializacao"])
+router = APIRouter(prefix="/comercializacao", tags=["Comercialização"])
 
-@router.get("/", summary="Dados de comercialização vitivinícola")
-async def get_producao():
+@router.get("/", summary="Dados de produção vitivinícola")
+async def get_producao(token: dict = Depends(verify_token)):
     scraper = EmbrapaScraper()
     data = scraper.get_data("comercializacao")
     if "error" in data:
